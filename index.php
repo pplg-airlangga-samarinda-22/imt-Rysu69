@@ -17,7 +17,7 @@
     if(isset($_POST['submit'])) {
         $bb = $_POST['bb'];
         $tb = $_POST['tb'];
-        if($bb != 0 && $tb!= 0){
+        if($bb > 0 && $tb > 0){
         $bmi = $bb / ($tb * $tb);
         echo"<h1>BB : $bb & TB : $tb</h1>";
 
